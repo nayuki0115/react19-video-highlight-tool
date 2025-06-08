@@ -1,11 +1,4 @@
-// src/components/TranscriptPanel.tsx
 import React from "react";
-
-type Props = {
-  transcript: Section[];
-  onToggle: (secIdx: number, sentIdx: number) => void;
-  onClickTime: (secIdx: number, sentIdx: number) => void;
-};
 
 const TranscriptPanel: React.FC<Props> = ({
   transcript,
