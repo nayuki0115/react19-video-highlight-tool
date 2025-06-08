@@ -30,7 +30,6 @@
 
 ## Component / Pages 說明
 ### TranscriptPanel  (Component)
-![TranscriptPanel](https://user-images.githubusercontent.com/.../transcript-panel.png)  
 - 顯示 `Section[]`  
 - 勾選框、句子文字、時間戳  
 - Props  
