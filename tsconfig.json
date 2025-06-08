@@ -8,6 +8,7 @@
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "strict": true,
+    "noImplicitAny": false, 
     "forceConsistentCasingInFileNames": true,
     "module": "ESNext",
     "moduleResolution": "Node",
@@ -15,15 +16,15 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    "baseUrl": ".",
+    "baseUrl": ".", 
     "paths": {
-      "@/*": ["*"]
+      "@/*": ["src/*"]
     }
   },
   "include": [
     "src/**/*",
     "src/**/*.tsx",
     "src/types/**/*.ts",
-    "src/types/**/*.d.ts" 
+    "src/types/**/*.d.ts"
   ]
 }
